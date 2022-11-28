@@ -1,6 +1,6 @@
 # dir
-/detectron2
-/faster_rcnn
+detectron2/
+faster_rcnn/
 mmdetection/work_dirs/
 mmdetection/wandb/
 mmdetection/vis_data/
@@ -8,11 +8,11 @@ mmdetection/artifacts/
 **/__pycache__/**
 
 # extension
-mmdetection/*.ipynb
+/mmdetection/*.ipynb
 
 # file
 mmdetection/LICENSE
 mmdetection/MANIFEST.in
 mmdetection/model-index.yml
 mmdetection/pytest.ini
-requirements.txt
+mmdetection/requirements.txt
