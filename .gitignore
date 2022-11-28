@@ -1,0 +1,15 @@
+# dir
+work_dirs/
+wandb/
+vis_data/
+artifacts/ 
+**/__pycache__/**
+
+# extension
+*.ipynb
+
+# file
+LICENSE
+MANIFEST.in
+model-index.yml
+pytest.ini
