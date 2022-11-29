@@ -1,7 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .anchor_free_head import AnchorFreeHead
 from .anchor_head import AnchorHead
-from .atss_head import ATSSHead
+from .atss_head import ATSSHead, ATSSSEPCHead
 from .autoassign_head import AutoAssignHead
 from .cascade_rpn_head import CascadeRPNHead, StageCascadeRPNHead
 from .centernet_head import CenterNetHead
@@ -56,3 +56,5 @@ __all__ = [
     'DecoupledSOLOLightHead', 'LADHead', 'TOODHead', 'MaskFormerHead',
     'Mask2FormerHead', 'SOLOV2Head', 'DDODHead'
 ]
+
+__all__ += ['ATSSSEPCHead']
