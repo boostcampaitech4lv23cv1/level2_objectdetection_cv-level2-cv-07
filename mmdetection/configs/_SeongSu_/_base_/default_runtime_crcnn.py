@@ -7,13 +7,13 @@ log_config = dict(
     hooks=[
         dict(type='TextLoggerHook'),
         dict(type='TensorboardLoggerHook'),
-        dict(type='MMDetWandbHook',
-            init_kwargs=dict(project='CascadeRCNN',name='CRCNN_SWIN0'),
-            interval=10,
-            log_checkpoint=True,
-            log_checkpoint_metadata=True,
-            bbox_score_thr=0.05,
-            num_eval_images=100)
+        # dict(type='MMDetWandbHook',
+        #     init_kwargs=dict(project='CascadeRCNN',name='CRCNN_SWIN0'),
+        #     interval=10,
+        #     log_checkpoint=True,
+        #     log_checkpoint_metadata=True,
+        #     bbox_score_thr=0.05,
+        #     num_eval_images=100)
     ])
 # yapf:enable
 custom_hooks = [dict(type='NumClassCheckHook')]
