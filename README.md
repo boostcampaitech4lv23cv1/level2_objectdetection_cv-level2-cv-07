@@ -63,4 +63,7 @@ level2_objectdetection_cv-level2-cv-07 created by GitHub Classroom
 [![image](https://user-images.githubusercontent.com/62556539/200262300-3765b3e4-0050-4760-b008-f218d079a770.png)](https://hallowed-eris-113.notion.site/Wrap-up-report-7b68cdc10c904e6c9139bc98f57752a5)
 
 ## Result
-
+- Public LB mAP: **67.77**
+- Private LB mAP : **66.25**
+- Rank : **9**/19
+-
