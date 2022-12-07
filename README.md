@@ -70,6 +70,22 @@
 - Intel(R) Xeon(R) Gold 5120 CPU @ 2.20GHz   
 - NVIDIA Tesla V100-SXM2-32GB   
 
+## 프로젝트 수행 일정
+![image](https://user-images.githubusercontent.com/56151577/206137370-8eb69b24-66d4-44c9-9689-11355dda7871.png)
+
+- Course & Mission (11.14 ~ 11.18)
+    - 강의 수강 및 Special mission 진행
+- EDA (11.17 ~ 11.18)
+    - Train Dataset에 대한 분석 진행
+- Baseline Code Analysis (11.21 ~ 11.25)
+    - mmdetection, detectron2, yolo v7에 대한 baseline코드 분석
+- Model Selecting (11.21 ~ 11.25)
+    - 다양한 모델들 중, 최종적으로 사용할 모델 선정
+- Model Training & Development (11.24 ~ 11.30)
+    - 선정한 모델들의 성능 개선을 위한 다양한 방법 적용
+- Ensemble (12.01)
+    - 다양한 방법으로 성능을 향상시킨 모델들 간의 ensemble 진행
+
 ## Model 
 ![슬라이드3](https://user-images.githubusercontent.com/56151577/206129611-9de6a466-5fc3-4949-b3b8-fc39fc7eb8e0.JPG)
 
