@@ -26,7 +26,7 @@ level2_objectdetection_cv-level2-cv-07 created by GitHub Classroom
         <td align="center" width="150px">
             <a href="https://github.com/99sphere"><img height="120px" width="120px" src="https://avatars.githubusercontent.com/u/59161083?v=4"/></a>
             <br />
-            <a href="https://github.com/99sphere"><strong>🙊 이구</strong></a>
+            <a href="https://github.com/99sphere"><strong>🙊 이  구</strong></a>
             <br />
         </td>
         <td align="center" width="150px">
