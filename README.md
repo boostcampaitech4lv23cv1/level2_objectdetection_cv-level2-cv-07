@@ -43,9 +43,9 @@ level2_objectdetection_cv-level2-cv-07 created by GitHub Classroom
 ## 프로젝트 환경
 모든 실험은 아래의 환경에서 진행되었다.
 
-Ubuntu 18.04.5 LTS   
-Intel(R) Xeon(R) Gold 5120 CPU @ 2.20GHz   
-NVIDIA Tesla V100-SXM2-32GB   
+- Ubuntu 18.04.5 LTS   
+- Intel(R) Xeon(R) Gold 5120 CPU @ 2.20GHz   
+- NVIDIA Tesla V100-SXM2-32GB   
 
 ## Model 
 
