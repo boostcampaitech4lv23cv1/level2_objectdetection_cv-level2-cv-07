@@ -66,4 +66,3 @@ level2_objectdetection_cv-level2-cv-07 created by GitHub Classroom
 - Public LB mAP: **67.77**
 - Private LB mAP : **66.25**
 - Rank : **9**/19
--
