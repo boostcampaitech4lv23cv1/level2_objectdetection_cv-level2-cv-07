@@ -66,6 +66,7 @@ level2_objectdetection_cv-level2-cv-07 created by GitHub Classroom
 - NVIDIA Tesla V100-SXM2-32GB   
 
 ## Model 
+![슬라이드3](https://user-images.githubusercontent.com/56151577/206129611-9de6a466-5fc3-4949-b3b8-fc39fc7eb8e0.JPG)
 
 ## Wrap-Up Report
 [![image](https://user-images.githubusercontent.com/62556539/200262300-3765b3e4-0050-4760-b008-f218d079a770.png)](https://hallowed-eris-113.notion.site/Wrap-up-report-7b68cdc10c904e6c9139bc98f57752a5)
