@@ -89,6 +89,19 @@
 ## Model 
 ![슬라이드3](https://user-images.githubusercontent.com/56151577/206129611-9de6a466-5fc3-4949-b3b8-fc39fc7eb8e0.JPG)
 
+| idx | Ensembled Models (used fold)                                                                                                                                            | Public LB Score | Private LB Score |
+|-----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------|
+| 1   | Faster R-CNN + Cascade R-CNN + Cascade R-CNN&weighted CE (fold 1,2,3,4) + YOLOv7 e6e + YOLO v7 + YOLO v7&cls loss (iou_threshold 0.4)                                   | 65.64           | 64.4             |
+| 2   | Faster R-CNN + Cascade R-CNN + Cascade R-CNN&weighted CE (fold 1,2,3,4) + YOLOv7 e6e (iou_threshold 0.4)                                                                | 66.21           | 64.85            |
+| 3   | Faster R-CNN + Cascade R-CNN + Cascade R-CNN&weighted CE (fold 1,2,3,4) + YOLOv7 e6e (iou_threshold 0.05)                                                               | 52.31           | 50.67            |
+| 4   | Faster R-CNN + Cascade R-CNN&weighted CE (fold 1,2,3,4) + YOLOv7 e6e (iou_threshold 0.4)                                                                                | 66.09           | 64.64            |
+| 5   | YOLOv7 e6e (fold 1,3,4,5) + Cascade R-CNN (fold 1) + Cascade R-CNN&weighted CE (fold 1,2) + Faster R-CNN (fold 2) / (iou_threshold 0.4)                                 | 66.65           | 65.01            |
+| 6   | YOLOv7 e6e (fold 1,3,4,5) + Cascade R-CNN (fold 1) + Cascade R-CNN&weighted CE (fold 1,2) + Faster R-CNN (fold 2) / (iou_threshold 0.55)                                | 67.75           | 66.25            |
+| 7   | YOLOv7 e6e (fold 1,3,4,5) + Cascade R-CNN (fold 1) + Cascade R-CNN&weighted CE (fold 1,2) + Faster R-CNN (fold 2) / (iou_threshold 0.3)                                 | 64.53           | 62.95            |
+| 8   | Cascade R-CNN&weighted CE (iou_threshold 0.4) + YOLOv7 e6e (iou_threshold 0.4) / (total iou_threshold 0.55)                                                             | 67.29           | 65.72            |
+| 9   | Cascade R-CNN&weighted CE (iou_threshold 0.3) + YOLOv7 e6e (iou_threshold 0.5) / (total iou_threshold 0.55)                                                             | 67.63           | 66.09            |
+| 10  | Cascade R-CNN (fold 1), Cascade R-CNN(fold 1,2), Faster R-CNN (fold 2) (iou_threshold 0.3) / YOLOv7 e6e (fold 1,3,4,5) (iou_threshold 0.5) / (total iou_threshold 0.55) | 67.77           | 66.24            |
+
 ## Wrap-Up Report
 [![image](https://user-images.githubusercontent.com/62556539/200262300-3765b3e4-0050-4760-b008-f218d079a770.png)](https://hallowed-eris-113.notion.site/Wrap-up-report-7b68cdc10c904e6c9139bc98f57752a5)
 
